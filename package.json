@@ -1,0 +1,29 @@
+{
+	"name": "repo-name",
+	"version": "0.0.1",
+	"description": "<change this description>",
+	"repository": {
+		"type": "git",
+		"url": "<repo-name-url>"
+	},
+	"license": "AGPL-3.0-or-later",
+	"author": "Nícolas Guedes",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc"
+	},
+	"dependencies": {
+		"@types/node": "^25.6.0",
+		"typescript": "^6.0.3"
+	},
+	"devDependencies": {
+		"@eslint/css": "^1.1.0",
+		"@eslint/js": "^10.0.1",
+		"eslint": "^10.2.1",
+		"globals": "^17.5.0",
+		"typescript-eslint": "^8.58.2"
+	}
+}
+
