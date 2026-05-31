@@ -11,18 +11,17 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
-  },
-  "dependencies": {
-    "@types/node": "^25.6.0",
-    "typescript": "^6.0.3"
+    "build": "tsc",
+    "test": "vitest"
   },
   "devDependencies": {
     "@eslint/css": "^1.1.0",
     "@eslint/js": "^10.0.1",
+    "@types/node": "^25.6.0",
     "eslint": "^10.2.1",
     "globals": "^17.5.0",
-    "typescript-eslint": "^8.58.2"
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.58.2",
+    "vitest": "^4.1.5"
   }
 }
